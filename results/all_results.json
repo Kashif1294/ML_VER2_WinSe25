@@ -1,0 +1,120 @@
+[
+  {
+    "model": "SVM",
+    "accuracy": 0.9466666666666667,
+    "confusion_matrix": [
+      [
+        482,
+        0,
+        6
+      ],
+      [
+        1,
+        6,
+        12
+      ],
+      [
+        13,
+        0,
+        80
+      ]
+    ],
+    "classification_report": {
+      "floor": {
+        "precision": 0.9717741935483871,
+        "recall": 0.9877049180327869,
+        "f1-score": 0.9796747967479674,
+        "support": 488.0
+      },
+      "box": {
+        "precision": 1.0,
+        "recall": 0.3157894736842105,
+        "f1-score": 0.48,
+        "support": 19.0
+      },
+      "human": {
+        "precision": 0.8163265306122449,
+        "recall": 0.8602150537634409,
+        "f1-score": 0.837696335078534,
+        "support": 93.0
+      },
+      "accuracy": 0.9466666666666667,
+      "macro avg": {
+        "precision": 0.9293669080535439,
+        "recall": 0.7212364818268128,
+        "f1-score": 0.7657903772755005,
+        "support": 600.0
+      },
+      "weighted avg": {
+        "precision": 0.9485736229975862,
+        "recall": 0.9466666666666667,
+        "f1-score": 0.941845099958853,
+        "support": 600.0
+      }
+    },
+    "discriminant_difference": {
+      "\u0394D(floor,box)": 0.9514243482934694,
+      "\u0394D(floor,human)": 0.5116576537784476,
+      "\u0394D(box,human)": 0.740400216333153
+    }
+  },
+  {
+    "model": "Random Forest",
+    "accuracy": 0.97,
+    "confusion_matrix": [
+      [
+        487,
+        0,
+        1
+      ],
+      [
+        2,
+        12,
+        5
+      ],
+      [
+        10,
+        0,
+        83
+      ]
+    ],
+    "classification_report": {
+      "floor": {
+        "precision": 0.9759519038076152,
+        "recall": 0.9979508196721312,
+        "f1-score": 0.9868287740628167,
+        "support": 488.0
+      },
+      "box": {
+        "precision": 1.0,
+        "recall": 0.631578947368421,
+        "f1-score": 0.7741935483870968,
+        "support": 19.0
+      },
+      "human": {
+        "precision": 0.9325842696629213,
+        "recall": 0.8924731182795699,
+        "f1-score": 0.9120879120879121,
+        "support": 93.0
+      },
+      "accuracy": 0.97,
+      "macro avg": {
+        "precision": 0.9695120578235121,
+        "recall": 0.8406676284400407,
+        "f1-score": 0.8910367448459419,
+        "support": 600.0
+      },
+      "weighted avg": {
+        "precision": 0.9699914435612798,
+        "recall": 0.97,
+        "f1-score": 0.9685104916436419,
+        "support": 600.0
+      }
+    },
+    "discriminant_difference": {
+      "\u0394D(floor,box)": 0.9061208589523737,
+      "\u0394D(floor,human)": 0.502357648507233,
+      "\u0394D(box,human)": 0.5585595567867035
+    }
+  }
+]
