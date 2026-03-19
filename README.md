@@ -20,7 +20,7 @@ The following sections describe the main components in an academic and structure
 
 ### 1.1 Raw data
 
-Two primary CSV files are used:
+Two primary CSV files (examples) are used:
 
 - `Dataset/human_5000.csv` – ultrasonic returns corresponding to human targets.
 - `Dataset/object_5000.csv` – ultrasonic returns corresponding to object targets.
